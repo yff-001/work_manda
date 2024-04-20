@@ -1,0 +1,971 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+                              ./ti_msp_dl_config.o (DL_Common_delayCycles)
+C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+                              ./driver/timer.o (DL_Timer_setClockConfig)
+C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+                              ./driver/uart.o (DL_UART_init)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                              C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o) (__aeabi_uidiv)
+c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                              c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+                              ./startup_mspm0l130x_gcc.o (__libc_init_array)
+
+Allocating common symbols
+Common symbol       size              file
+
+timers              0x78              ./handler/xtimer.o
+machine             0x8               ./scheduler.o
+
+Discarded input sections
+
+ .text.state_machine_task
+                0x00000000        0x4 ./state_machine.o
+ .text.traverse_state
+                0x00000000        0x4 ./state_machine.o
+ .text.cpu_delay_microsecond
+                0x00000000        0xc ./driver/cpu.o
+ .text.gpio_read_vcom
+                0x00000000       0x14 ./driver/gpio.o
+ .text.gpio_set_tx_pin
+                0x00000000       0x24 ./driver/gpio.o
+ .text.button_init
+                0x00000000        0x4 ./handler/button.o
+ .text.display_init
+                0x00000000        0x4 ./handler/display.o
+ .text.pon_task
+                0x00000000        0x4 ./handler/pon.o
+ .text.xtimer_cancel
+                0x00000000        0x4 ./handler/xtimer.o
+ .rodata.UART0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.FLASHCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.SPI0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.I2C0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.CPUSS  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.GPIOA  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.UART1  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.WWDT0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.DEBUGSS
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.VREF   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.CRC    0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.OPA0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.TIMG1  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.DMA    0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.COMP0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.SYSCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.OPA1   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.I2C1   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.TIMG0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.IOMUX  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.TIMG2  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.TIMG4  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.ADC0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.ADC0_PERIPHERALREGIONSVT
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.WUC    0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.FACTORYREGION
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .rodata.UART0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.FLASHCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.SPI0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.I2C0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.CPUSS  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.GPIOA  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.UART1  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.WWDT0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.DEBUGSS
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.VREF   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.CRC    0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.OPA0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.TIMG1  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.DMA    0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.COMP0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.SYSCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.OPA1   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.I2C1   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.TIMG0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.IOMUX  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.TIMG2  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.TIMG4  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.ADC0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.ADC0_PERIPHERALREGIONSVT
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.WUC    0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.FACTORYREGION
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_setCCPDirection
+                0x00000000       0x1c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getClockConfig
+                0x00000000       0x40 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_initCaptureMode
+                0x00000000      0x140 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_initCaptureTriggerMode
+                0x00000000       0xc4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_initCaptureCombinedMode
+                0x00000000       0xd0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_initCompareMode
+                0x00000000       0xd4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_initCompareTriggerMode
+                0x00000000       0xb0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_initPWMMode
+                0x00000000      0x130 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getCaptureCompareValue
+                0x00000000       0x38 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getCaptureCompareCtl
+                0x00000000       0x3c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_enableSuppressionOfCompEvent
+                0x00000000       0x40 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_disableSuppressionOfCompEvent
+                0x00000000       0x40 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_setCaptCompUpdateMethod
+                0x00000000       0x40 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getCaptCompUpdateMethod
+                0x00000000       0x40 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_setCaptureCompareOutCtl
+                0x00000000       0x40 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getCaptureCompareOutCtl
+                0x00000000       0x34 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_setCaptureCompareAction
+                0x00000000       0x40 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getCaptureCompareAction
+                0x00000000       0x3c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_overrideCCPOut
+                0x00000000       0x48 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_setCaptureCompareInput
+                0x00000000       0x44 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getCaptureCompareInput
+                0x00000000       0x36 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_setCaptureCompareInputFilter
+                0x00000000       0x46 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getCaptureCompareInputFilter
+                0x00000000       0x38 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_enableCaptureCompareInputFilter
+                0x00000000       0x3c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_disableCaptureCompareInputFilter
+                0x00000000       0x40 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_isCaptureCompareInputFilterEnabled
+                0x00000000       0x48 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_saveConfiguration
+                0x00000000      0x1d8 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_restoreConfiguration
+                0x00000000      0x1dc C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getInChanConfig
+                0x00000000       0xa0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_getInChanPairConfig
+                0x00000000       0x52 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_configQEIHallInputMode
+                0x00000000       0x4c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .rodata.UART0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.FLASHCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.SPI0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.I2C0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.CPUSS  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.GPIOA  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.UART1  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.WWDT0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.DEBUGSS
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.VREF   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.CRC    0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.OPA0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.TIMG1  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.DMA    0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.COMP0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.SYSCTL
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.OPA1   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.I2C1   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.TIMG0  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.IOMUX  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.TIMG2  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.TIMG4  0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.ADC0   0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.ADC0_PERIPHERALREGIONSVT
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.WUC    0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .rodata.FACTORYREGION
+                0x00000000        0x4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_enable
+                0x00000000       0x26 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_setOversampling
+                0x00000000       0x28 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_isRXFIFOEmpty
+                0x00000000       0x28 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_setBaudRateDivisor
+                0x00000000       0x60 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_receiveData
+                0x00000000       0x1c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_getClockConfig
+                0x00000000       0x30 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_configBaudRate
+                0x00000000       0xa8 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_configIrDAMode
+                0x00000000       0x54 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_setIrDAPulseLength
+                0x00000000       0x54 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_receiveDataBlocking
+                0x00000000       0x28 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_receiveDataCheck
+                0x00000000       0x46 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_transmitDataCheck
+                0x00000000       0x48 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_drainRXFIFO
+                0x00000000       0x56 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_fillTXFIFO
+                0x00000000       0x56 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_Main_saveConfiguration
+                0x00000000       0xe0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_Main_restoreConfiguration
+                0x00000000       0xe4 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_Extend_saveConfiguration
+                0x00000000      0x118 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_Extend_restoreConfiguration
+                0x00000000      0x114 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x0000fff8         xr
+SRAM             0x20000000         0x00001000         xrw
+BCR_CONFIG       0x41c00000         0x00000080         r
+BSL_CONFIG       0x41c00100         0x00000080         r
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./empty_non_sysconfig.o
+LOAD ./event_queue.o
+LOAD ./scheduler.o
+LOAD ./startup_mspm0l130x_gcc.o
+LOAD ./state_machine.o
+LOAD ./ti_msp_dl_config.o
+LOAD ./driver/cpu.o
+LOAD ./driver/gpio.o
+LOAD ./driver/timer.o
+LOAD ./driver/uart.o
+LOAD ./handler/button.o
+LOAD ./handler/communication.o
+LOAD ./handler/display.o
+LOAD ./handler/pon.o
+LOAD ./handler/xtimer.o
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000080                _Min_Stack_Size = 0x80
+                0x00000000                PROVIDE (_intvecs_base_address = DEFINED (_intvecs_base_address)?_intvecs_base_address:0x0)
+
+.intvecs        0x00000000       0xc0
+ *(.intvecs)
+ .intvecs       0x00000000       0xc0 ./startup_mspm0l130x_gcc.o
+                0x00000000                interruptVectors
+                0x20000000                PROVIDE (_vtable_base_address = DEFINED (_vtable_base_address)?_vtable_base_address:0x20000000)
+
+.vtable
+ *(.vtable)
+
+.text           0x000000c0      0xbf8
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x000000c0        0x0 ./empty_non_sysconfig.o
+ .text          0x000000c0        0x0 ./event_queue.o
+ .text          0x000000c0        0x0 ./scheduler.o
+ .text          0x000000c0        0x0 ./startup_mspm0l130x_gcc.o
+ .text          0x000000c0        0x0 ./state_machine.o
+ .text          0x000000c0        0x0 ./ti_msp_dl_config.o
+ .text          0x000000c0        0x0 ./driver/cpu.o
+ .text          0x000000c0        0x0 ./driver/gpio.o
+ .text          0x000000c0        0x0 ./driver/timer.o
+ .text          0x000000c0        0x0 ./driver/uart.o
+ .text          0x000000c0        0x0 ./handler/button.o
+ .text          0x000000c0        0x0 ./handler/communication.o
+ .text          0x000000c0        0x0 ./handler/display.o
+ .text          0x000000c0        0x0 ./handler/pon.o
+ .text          0x000000c0        0x0 ./handler/xtimer.o
+ .text          0x000000c0        0x0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .text          0x000000c0        0x0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text          0x000000c0        0x0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text          0x000000c0      0x114 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x000000c0                __aeabi_uidiv
+                0x000000c0                __udivsi3
+                0x000001cc                __aeabi_uidivmod
+ .text          0x000001d4        0x4 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x000001d4                __aeabi_idiv0
+                0x000001d4                __aeabi_ldiv0
+ .text          0x000001d8        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+                0x000001d8                . = ALIGN (0x8)
+ *(.text.*)
+ .text.startup.main
+                0x000001d8       0x54 ./empty_non_sysconfig.o
+                0x000001d8                main
+ .text.event_queue_available
+                0x0000022c       0x24 ./event_queue.o
+                0x0000022c                event_queue_available
+ .text.event_queue_put
+                0x00000250       0x40 ./event_queue.o
+                0x00000250                event_queue_put
+ .text.event_queue_get
+                0x00000290       0x30 ./event_queue.o
+                0x00000290                event_queue_get
+ .text.scheduler_init
+                0x000002c0       0x2c ./scheduler.o
+                0x000002c0                scheduler_init
+ .text.scheduler_high_power
+                0x000002ec       0x78 ./scheduler.o
+                0x000002ec                scheduler_high_power
+ .text.scheduler_low_power
+                0x00000364        0xc ./scheduler.o
+                0x00000364                scheduler_low_power
+ .text.scheduler_power_down
+                0x00000370        0xc ./scheduler.o
+                0x00000370                scheduler_power_down
+ .text.get_power_mode
+                0x0000037c        0xc ./scheduler.o
+                0x0000037c                get_power_mode
+ .text.Default_Handler
+                0x00000388        0x4 ./startup_mspm0l130x_gcc.o
+                0x00000388                TIMG2_IRQHandler
+                0x00000388                I2C0_IRQHandler
+                0x00000388                HardFault_Handler
+                0x00000388                PendSV_Handler
+                0x00000388                NMI_Handler
+                0x00000388                I2C1_IRQHandler
+                0x00000388                UART1_IRQHandler
+                0x00000388                ADC0_IRQHandler
+                0x00000388                GROUP1_IRQHandler
+                0x00000388                GROUP0_IRQHandler
+                0x00000388                Default_Handler
+                0x00000388                SVC_Handler
+                0x00000388                TIMG1_IRQHandler
+                0x00000388                SPI0_IRQHandler
+                0x00000388                DMA_IRQHandler
+                0x00000388                TIMG4_IRQHandler
+ .text.Reset_Handler
+                0x0000038c       0x8c ./startup_mspm0l130x_gcc.o
+                0x0000038c                Reset_Handler
+ .text.initStub
+                0x00000418        0x4 ./startup_mspm0l130x_gcc.o
+                0x00000418                initStub
+                0x00000418                _init
+ .text.user_entry
+                0x0000041c        0x4 ./state_machine.o
+ .text.user_action
+                0x00000420       0x10 ./state_machine.o
+ .text.charge_entry
+                0x00000430        0x4 ./state_machine.o
+ .text.charge_exit
+                0x00000434        0x4 ./state_machine.o
+ .text.user_exit
+                0x00000438        0x4 ./state_machine.o
+ .text.service_action
+                0x0000043c        0x4 ./state_machine.o
+ .text.service_entry
+                0x00000440        0x4 ./state_machine.o
+ .text.service_exit
+                0x00000444        0x4 ./state_machine.o
+ .text.idle_action
+                0x00000448        0x4 ./state_machine.o
+ .text.idle_entry
+                0x0000044c        0x4 ./state_machine.o
+ .text.idle_exit
+                0x00000450        0x4 ./state_machine.o
+ .text.motor_on_action
+                0x00000454        0x4 ./state_machine.o
+ .text.motor_on_entry
+                0x00000458        0x4 ./state_machine.o
+ .text.motor_on_exit
+                0x0000045c        0x4 ./state_machine.o
+ .text.charge_action
+                0x00000460        0x4 ./state_machine.o
+ .text.dispatch_event
+                0x00000464       0x30 ./state_machine.o
+                0x00000464                dispatch_event
+ .text.state_machine_init
+                0x00000494        0xc ./state_machine.o
+                0x00000494                state_machine_init
+ .text.SYSCFG_DL_initPower
+                0x000004a0       0x34 ./ti_msp_dl_config.o
+                0x000004a0                SYSCFG_DL_initPower
+ .text.SYSCFG_DL_GPIO_init
+                0x000004d4        0x4 ./ti_msp_dl_config.o
+                0x000004d4                SYSCFG_DL_GPIO_init
+ .text.SYSCFG_DL_SYSCTL_init
+                0x000004d8       0x30 ./ti_msp_dl_config.o
+                0x000004d8                SYSCFG_DL_SYSCTL_init
+ .text.SYSCFG_DL_init
+                0x00000508       0x10 ./ti_msp_dl_config.o
+                0x00000508                SYSCFG_DL_init
+ .text.gpio_init
+                0x00000518       0x34 ./driver/gpio.o
+                0x00000518                gpio_init
+ .text.SYSCFG_DL_TIMER_0_init
+                0x0000054c       0x38 ./driver/timer.o
+                0x0000054c                SYSCFG_DL_TIMER_0_init
+ .text.timer_init
+                0x00000584       0x50 ./driver/timer.o
+                0x00000584                timer_init
+ .text.TIMG0_IRQHandler
+                0x000005d4       0x10 ./driver/timer.o
+                0x000005d4                TIMG0_IRQHandler
+ .text.SysTick_Handler
+                0x000005e4       0x10 ./driver/timer.o
+                0x000005e4                SysTick_Handler
+ .text.systick_count
+                0x000005f4       0x30 ./driver/timer.o
+                0x000005f4                systick_count
+ .text.has_systick_elapsed
+                0x00000624       0x10 ./driver/timer.o
+                0x00000624                has_systick_elapsed
+ .text.permtick_count
+                0x00000634       0x30 ./driver/timer.o
+                0x00000634                permtick_count
+ .text.has_permtick_elapsed
+                0x00000664       0x10 ./driver/timer.o
+                0x00000664                has_permtick_elapsed
+ .text.SYSCFG_DL_UART_0_init
+                0x00000674       0xc4 ./driver/uart.o
+                0x00000674                SYSCFG_DL_UART_0_init
+ .text.uart0_init
+                0x00000738       0x24 ./driver/uart.o
+                0x00000738                uart0_init
+ .text.uart0_puts
+                0x0000075c       0x20 ./driver/uart.o
+                0x0000075c                uart0_puts
+ .text.UART0_IRQHandler
+                0x0000077c       0x38 ./driver/uart.o
+                0x0000077c                UART0_IRQHandler
+ .text.button_task
+                0x000007b4       0x60 ./handler/button.o
+                0x000007b4                button_task
+ .text.rx_put   0x00000814       0x1c ./handler/communication.o
+                0x00000814                rx_put
+ .text.communication_init
+                0x00000830       0x18 ./handler/communication.o
+                0x00000830                communication_init
+ .text.display_task
+                0x00000848        0x4 ./handler/display.o
+                0x00000848                display_task
+ .text.xtimer_init
+                0x0000084c       0x2c ./handler/xtimer.o
+                0x0000084c                xtimer_init
+ .text.xtimer_create
+                0x00000878       0x5c ./handler/xtimer.o
+                0x00000878                xtimer_create
+ .text.xtimer_task
+                0x000008d4       0x40 ./handler/xtimer.o
+                0x000008d4                xtimer_task
+ .text.DL_Common_delayCycles
+                0x00000914       0x1c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+                0x00000914                DL_Common_delayCycles
+ .text.DL_Common_updateReg
+                0x00000930       0x32 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ *fill*         0x00000962        0x2 
+ .text.DL_Timer_setLoadValue
+                0x00000964       0x20 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_setCounterValueAfterEnable
+                0x00000984       0x2c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .text.DL_Timer_setClockConfig
+                0x000009b0       0x40 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+                0x000009b0                DL_Timer_setClockConfig
+ .text.DL_Timer_initTimerMode
+                0x000009f0       0x8c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+                0x000009f0                DL_Timer_initTimerMode
+ .text.DL_Timer_setCaptureCompareValue
+                0x00000a7c       0x38 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+                0x00000a7c                DL_Timer_setCaptureCompareValue
+ .text.DL_Timer_setCaptureCompareCtl
+                0x00000ab4       0x4c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+                0x00000ab4                DL_Timer_setCaptureCompareCtl
+ .text.DL_Common_updateReg
+                0x00000b00       0x32 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_disable
+                0x00000b32       0x26 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_isTXFIFOFull
+                0x00000b58       0x28 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .text.DL_UART_transmitData
+                0x00000b80       0x22 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ *fill*         0x00000ba2        0x2 
+ .text.DL_UART_init
+                0x00000ba4       0x68 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+                0x00000ba4                DL_UART_init
+ .text.DL_UART_setClockConfig
+                0x00000c0c       0x30 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+                0x00000c0c                DL_UART_setClockConfig
+ .text.DL_UART_transmitDataBlocking
+                0x00000c3c       0x32 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+                0x00000c3c                DL_UART_transmitDataBlocking
+ *fill*         0x00000c6e        0x2 
+ .text.__libc_init_array
+                0x00000c70       0x44 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+                0x00000c70                __libc_init_array
+                0x00000cb8                . = ALIGN (0x8)
+ *fill*         0x00000cb4        0x4 
+ *(.ctors)
+                0x00000cb8                . = ALIGN (0x8)
+ *(.dtors)
+                0x00000cb8                . = ALIGN (0x8)
+ *(.init)
+                0x00000cb8                . = ALIGN (0x8)
+ *(.fini*)
+                0x00000cb8                . = ALIGN (0x8)
+
+.glue_7         0x00000cb8        0x0
+ .glue_7        0x00000cb8        0x0 linker stubs
+
+.glue_7t        0x00000cb8        0x0
+ .glue_7t       0x00000cb8        0x0 linker stubs
+
+.vfp11_veneer   0x00000cb8        0x0
+ .vfp11_veneer  0x00000cb8        0x0 linker stubs
+
+.v4_bx          0x00000cb8        0x0
+ .v4_bx         0x00000cb8        0x0 linker stubs
+
+.iplt           0x00000cb8        0x0
+ .iplt          0x00000cb8        0x0 ./empty_non_sysconfig.o
+
+.ramfunc        0x20000000        0x0 load address 0x00000cb8
+                0x00000cb8                __ramfunct_load__ = LOADADDR (.ramfunc)
+                0x20000000                __ramfunct_start__ = .
+ *(.ramfunc)
+                0x20000000                . = ALIGN (0x8)
+                0x20000000                __ramfunct_end__ = .
+
+.rodata         0x00000cb8      0x150
+ *(.rodata)
+                0x00000cb8                . = ALIGN (0x8)
+ *(.rodata.*)
+ .rodata.user_action.str1.4
+                0x00000cb8       0x13 ./state_machine.o
+ *fill*         0x00000ccb        0x1 
+ .rodata.operate_modes
+                0x00000ccc       0x48 ./state_machine.o
+ .rodata.user_modes
+                0x00000d14       0x30 ./state_machine.o
+ .rodata.gTIMER_0ClockConfig
+                0x00000d44        0x3 ./driver/timer.o
+ *fill*         0x00000d47        0x1 
+ .rodata.gTIMER_0TimerConfig
+                0x00000d48       0x14 ./driver/timer.o
+ .rodata.gUART_0ClockConfig
+                0x00000d5c        0x2 ./driver/uart.o
+ *fill*         0x00000d5e        0x2 
+ .rodata.gUART_0Config
+                0x00000d60        0xa ./driver/uart.o
+ *fill*         0x00000d6a        0x2 
+ .rodata.communication_init.str1.4
+                0x00000d6c        0xd ./handler/communication.o
+ *fill*         0x00000d79        0x3 
+ .rodata.DL_Timer_initTimerMode
+                0x00000d7c       0x8c C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+                0x00000e08                . = ALIGN (0x8)
+
+.rel.dyn        0x00000e08        0x0
+ .rel.iplt      0x00000e08        0x0 ./empty_non_sysconfig.o
+
+.preinit_array  0x00000e08        0x0
+                0x00000e08                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x00000e08                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00000e08        0x0
+                0x00000e08                . = ALIGN (0x8)
+                0x00000e08                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x00000e08                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000e08        0x0
+                0x00000e08                . = ALIGN (0x8)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                PROVIDE (__fini_array_end = .)
+                0x00000e08                . = ALIGN (0x8)
+
+.ARM.exidx      0x00000e08        0x0
+                0x00000e08                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000e08                __exidx_end = .
+
+.ARM.extab      0x00000e08        0x0
+                0x00000e08                . = ALIGN (0x8)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000e08                . = ALIGN (0x8)
+                0x00000e08                __etext = .
+
+.data           0x20000000        0x0 load address 0x00000e08
+                0x00000e08                __data_load__ = LOADADDR (.data)
+                0x20000000                __data_start__ = .
+ *(.data)
+ .data          0x20000000        0x0 ./empty_non_sysconfig.o
+ .data          0x20000000        0x0 ./event_queue.o
+ .data          0x20000000        0x0 ./scheduler.o
+ .data          0x20000000        0x0 ./startup_mspm0l130x_gcc.o
+ .data          0x20000000        0x0 ./state_machine.o
+ .data          0x20000000        0x0 ./ti_msp_dl_config.o
+ .data          0x20000000        0x0 ./driver/cpu.o
+ .data          0x20000000        0x0 ./driver/gpio.o
+ .data          0x20000000        0x0 ./driver/timer.o
+ .data          0x20000000        0x0 ./driver/uart.o
+ .data          0x20000000        0x0 ./handler/button.o
+ .data          0x20000000        0x0 ./handler/communication.o
+ .data          0x20000000        0x0 ./handler/display.o
+ .data          0x20000000        0x0 ./handler/pon.o
+ .data          0x20000000        0x0 ./handler/xtimer.o
+ .data          0x20000000        0x0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .data          0x20000000        0x0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .data          0x20000000        0x0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .data          0x20000000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .data          0x20000000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .data          0x20000000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+ *(.data*)
+                0x20000000                . = ALIGN (0x8)
+                0x20000000                __data_end__ = .
+
+.igot.plt       0x20000000        0x0 load address 0x00000e08
+ .igot.plt      0x20000000        0x0 ./empty_non_sysconfig.o
+
+.bss            0x20000000      0x1f0
+                0x20000000                __bss_start__ = .
+ *(.shbss)
+ *(.bss)
+ .bss           0x20000000        0x0 ./empty_non_sysconfig.o
+ .bss           0x20000000        0x0 ./event_queue.o
+ .bss           0x20000000        0x0 ./scheduler.o
+ .bss           0x20000000        0x0 ./startup_mspm0l130x_gcc.o
+ .bss           0x20000000        0x0 ./state_machine.o
+ .bss           0x20000000        0x0 ./ti_msp_dl_config.o
+ .bss           0x20000000        0x0 ./driver/cpu.o
+ .bss           0x20000000        0x0 ./driver/gpio.o
+ .bss           0x20000000        0x0 ./driver/timer.o
+ .bss           0x20000000        0x0 ./driver/uart.o
+ .bss           0x20000000        0x0 ./handler/button.o
+ .bss           0x20000000        0x0 ./handler/communication.o
+ .bss           0x20000000        0x0 ./handler/display.o
+ .bss           0x20000000        0x0 ./handler/pon.o
+ .bss           0x20000000        0x0 ./handler/xtimer.o
+ .bss           0x20000000        0x0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .bss           0x20000000        0x0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .bss           0x20000000        0x0 C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .bss           0x20000000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x20000000        0x0 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x20000000        0x0 C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+ *(.bss.*)
+ .bss.event_queue
+                0x20000000       0x40 ./event_queue.o
+                0x20000000                event_queue
+ .bss.event_queue_head
+                0x20000040        0x4 ./event_queue.o
+                0x20000040                event_queue_head
+ .bss.event_queue_index
+                0x20000044        0x4 ./event_queue.o
+                0x20000044                event_queue_index
+ .bss.event_queue_tail
+                0x20000048        0x4 ./event_queue.o
+                0x20000048                event_queue_tail
+ .bss.current_power_mode
+                0x2000004c        0x1 ./scheduler.o
+ *fill*         0x2000004d        0x3 
+ .bss.permtick_cnt
+                0x20000050        0x4 ./driver/timer.o
+ .bss.permtick_cnt_accumulated
+                0x20000054        0x4 ./driver/timer.o
+ .bss.permtick_temp
+                0x20000058        0x1 ./driver/timer.o
+ *fill*         0x20000059        0x3 
+ .bss.systick_cnt
+                0x2000005c        0x4 ./driver/timer.o
+ .bss.systick_cnt_accumulated
+                0x20000060        0x4 ./driver/timer.o
+ .bss.systick_temp
+                0x20000064        0x1 ./driver/timer.o
+ .bss.rx_data   0x20000065        0x1 ./driver/uart.o
+                0x20000065                rx_data
+ *fill*         0x20000066        0x2 
+ .bss.write_to_buffer
+                0x20000068        0x4 ./driver/uart.o
+ .bss.button_level.11778
+                0x2000006c        0x2 ./handler/button.o
+ .bss.buffer_index
+                0x2000006e        0x1 ./handler/communication.o
+ *fill*         0x2000006f        0x1 
+ .bss.message_buffer
+                0x20000070       0xff ./handler/communication.o
+                0x20000070                message_buffer
+ *(COMMON)
+ *fill*         0x2000016f        0x1 
+ COMMON         0x20000170        0x8 ./scheduler.o
+                0x20000170                machine
+ COMMON         0x20000178       0x78 ./handler/xtimer.o
+                0x20000178                timers
+                0x200001f0                . = ALIGN (0x8)
+                0x200001f0                __bss_end__ = .
+
+.noinit         0x200001f0        0x0
+ *(*.noinit*)
+                0x200001f0                . = ALIGN (0x8)
+
+.heap           0x200001f0        0x0
+                0x200001f0                __heap_start__ = .
+                0x200001f0                end = __heap_start__
+                0x200001f0                _end = end
+                0x200001f0                __end = end
+ *(.heap)
+                0x200001f0                __heap_end__ = .
+                0x200001f0                __HeapLimit = __heap_end__
+
+.stack          0x200001f0        0x0
+                0x200001f0                _stack = .
+ *(.stack)
+
+.BCRConfig
+ *(.BCRConfig)
+
+.BSLConfig
+ *(.BSLConfig)
+                0x20001000                __StackTop = (ORIGIN (REGION_STACK) + LENGTH (REGION_STACK))
+                [!provide]                PROVIDE (__stack = __StackTop)
+LOAD C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a
+LOAD C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx\driverlib.a
+LOAD c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a
+START GROUP
+LOAD c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libg.a
+LOAD C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+END GROUP
+OUTPUT(empty_non_sysconfig_LP_MSPM0L1306_nortos_gcc.out elf32-littlearm)
+
+.debug_info     0x00000000    0x2f39a
+ .debug_info    0x00000000     0x48c5 ./empty_non_sysconfig.o
+ .debug_info    0x000048c5      0xa5d ./event_queue.o
+ .debug_info    0x00005322     0x486a ./scheduler.o
+ .debug_info    0x00009b8c      0x1bc ./startup_mspm0l130x_gcc.o
+ .debug_info    0x00009d48     0x4b25 ./state_machine.o
+ .debug_info    0x0000e86d     0x4993 ./ti_msp_dl_config.o
+ .debug_info    0x00013200     0x4685 ./driver/cpu.o
+ .debug_info    0x00017885     0x4a78 ./driver/gpio.o
+ .debug_info    0x0001c2fd     0x4d8e ./driver/timer.o
+ .debug_info    0x0002108b     0x5079 ./driver/uart.o
+ .debug_info    0x00026104     0x472a ./handler/button.o
+ .debug_info    0x0002a82e      0x146 ./handler/communication.o
+ .debug_info    0x0002a974     0x466a ./handler/display.o
+ .debug_info    0x0002efde       0xb1 ./handler/pon.o
+ .debug_info    0x0002f08f      0x30b ./handler/xtimer.o
+
+.debug_abbrev   0x00000000     0x1f6e
+ .debug_abbrev  0x00000000      0x25a ./empty_non_sysconfig.o
+ .debug_abbrev  0x0000025a      0x1e7 ./event_queue.o
+ .debug_abbrev  0x00000441      0x23a ./scheduler.o
+ .debug_abbrev  0x0000067b       0xe7 ./startup_mspm0l130x_gcc.o
+ .debug_abbrev  0x00000762      0x305 ./state_machine.o
+ .debug_abbrev  0x00000a67      0x2c5 ./ti_msp_dl_config.o
+ .debug_abbrev  0x00000d2c      0x1d3 ./driver/cpu.o
+ .debug_abbrev  0x00000eff      0x2d2 ./driver/gpio.o
+ .debug_abbrev  0x000011d1      0x327 ./driver/timer.o
+ .debug_abbrev  0x000014f8      0x38f ./driver/uart.o
+ .debug_abbrev  0x00001887      0x23e ./handler/button.o
+ .debug_abbrev  0x00001ac5       0xe0 ./handler/communication.o
+ .debug_abbrev  0x00001ba5      0x1d8 ./handler/display.o
+ .debug_abbrev  0x00001d7d       0x6e ./handler/pon.o
+ .debug_abbrev  0x00001deb      0x183 ./handler/xtimer.o
+
+.debug_aranges  0x00000000      0x2e8
+ .debug_aranges
+                0x00000000       0x20 ./empty_non_sysconfig.o
+ .debug_aranges
+                0x00000020       0x30 ./event_queue.o
+ .debug_aranges
+                0x00000050       0x40 ./scheduler.o
+ .debug_aranges
+                0x00000090       0x30 ./startup_mspm0l130x_gcc.o
+ .debug_aranges
+                0x000000c0       0x48 ./state_machine.o
+ .debug_aranges
+                0x00000108       0x38 ./ti_msp_dl_config.o
+ .debug_aranges
+                0x00000140       0x20 ./driver/cpu.o
+ .debug_aranges
+                0x00000160       0x30 ./driver/gpio.o
+ .debug_aranges
+                0x00000190       0x58 ./driver/timer.o
+ .debug_aranges
+                0x000001e8       0x38 ./driver/uart.o
+ .debug_aranges
+                0x00000220       0x28 ./handler/button.o
+ .debug_aranges
+                0x00000248       0x28 ./handler/communication.o
+ .debug_aranges
+                0x00000270       0x20 ./handler/display.o
+ .debug_aranges
+                0x00000290       0x20 ./handler/pon.o
+ .debug_aranges
+                0x000002b0       0x38 ./handler/xtimer.o
+
+.debug_ranges   0x00000000      0x4e0
+ .debug_ranges  0x00000000       0x10 ./empty_non_sysconfig.o
+ .debug_ranges  0x00000010       0x20 ./event_queue.o
+ .debug_ranges  0x00000030       0x30 ./scheduler.o
+ .debug_ranges  0x00000060       0x20 ./startup_mspm0l130x_gcc.o
+ .debug_ranges  0x00000080       0x38 ./state_machine.o
+ .debug_ranges  0x000000b8       0xc0 ./ti_msp_dl_config.o
+ .debug_ranges  0x00000178       0x10 ./driver/cpu.o
+ .debug_ranges  0x00000188       0x98 ./driver/gpio.o
+ .debug_ranges  0x00000220       0xb0 ./driver/timer.o
+ .debug_ranges  0x000002d0      0x128 ./driver/uart.o
+ .debug_ranges  0x000003f8       0x18 ./handler/button.o
+ .debug_ranges  0x00000410       0x18 ./handler/communication.o
+ .debug_ranges  0x00000428       0x10 ./handler/display.o
+ .debug_ranges  0x00000438       0x10 ./handler/pon.o
+ .debug_ranges  0x00000448       0x98 ./handler/xtimer.o
+
+.debug_line     0x00000000     0x32ed
+ .debug_line    0x00000000      0x3e6 ./empty_non_sysconfig.o
+ .debug_line    0x000003e6      0x1a3 ./event_queue.o
+ .debug_line    0x00000589      0x448 ./scheduler.o
+ .debug_line    0x000009d1      0x180 ./startup_mspm0l130x_gcc.o
+ .debug_line    0x00000b51      0x42c ./state_machine.o
+ .debug_line    0x00000f7d      0x4f5 ./ti_msp_dl_config.o
+ .debug_line    0x00001472      0x305 ./driver/cpu.o
+ .debug_line    0x00001777      0x46d ./driver/gpio.o
+ .debug_line    0x00001be4      0x5a8 ./driver/timer.o
+ .debug_line    0x0000218c      0x5e2 ./driver/uart.o
+ .debug_line    0x0000276e      0x40f ./handler/button.o
+ .debug_line    0x00002b7d      0x12c ./handler/communication.o
+ .debug_line    0x00002ca9      0x300 ./handler/display.o
+ .debug_line    0x00002fa9       0xe0 ./handler/pon.o
+ .debug_line    0x00003089      0x264 ./handler/xtimer.o
+
+.debug_str      0x00000000     0x3818
+ .debug_str     0x00000000     0x1637 ./empty_non_sysconfig.o
+                               0x1701 (size before relaxing)
+ .debug_str     0x00001637      0x4cb ./event_queue.o
+                                0x6c2 (size before relaxing)
+ .debug_str     0x00001b02      0x103 ./scheduler.o
+                               0x16e3 (size before relaxing)
+ .debug_str     0x00001c05       0xf2 ./startup_mspm0l130x_gcc.o
+                                0x2ae (size before relaxing)
+ .debug_str     0x00001cf7      0x19f ./state_machine.o
+                               0x17bc (size before relaxing)
+ .debug_str     0x00001e96      0x3e7 ./ti_msp_dl_config.o
+                               0x18f4 (size before relaxing)
+ .debug_str     0x0000227d       0x38 ./driver/cpu.o
+                               0x1549 (size before relaxing)
+ .debug_str     0x000022b5      0x3cc ./driver/gpio.o
+                               0x18f6 (size before relaxing)
+ .debug_str     0x00002681      0x536 ./driver/timer.o
+                               0x1bfa (size before relaxing)
+ .debug_str     0x00002bb7      0xa57 ./driver/uart.o
+                               0x2152 (size before relaxing)
+ .debug_str     0x0000360e       0x39 ./handler/button.o
+                               0x15df (size before relaxing)
+ .debug_str     0x00003647       0xf0 ./handler/communication.o
+                                0x2af (size before relaxing)
+ .debug_str     0x00003737       0x2f ./handler/display.o
+                               0x1537 (size before relaxing)
+ .debug_str     0x00003766       0x35 ./handler/pon.o
+                                0x1f1 (size before relaxing)
+ .debug_str     0x0000379b       0x7d ./handler/xtimer.o
+                                0x306 (size before relaxing)
+
+.comment        0x00000000       0x79
+ .comment       0x00000000       0x79 ./empty_non_sysconfig.o
+                                 0x7a (size before relaxing)
+ .comment       0x00000079       0x7a ./event_queue.o
+ .comment       0x00000079       0x7a ./scheduler.o
+ .comment       0x00000079       0x7a ./startup_mspm0l130x_gcc.o
+ .comment       0x00000079       0x7a ./state_machine.o
+ .comment       0x00000079       0x7a ./ti_msp_dl_config.o
+ .comment       0x00000079       0x7a ./driver/cpu.o
+ .comment       0x00000079       0x7a ./driver/gpio.o
+ .comment       0x00000079       0x7a ./driver/timer.o
+ .comment       0x00000079       0x7a ./driver/uart.o
+ .comment       0x00000079       0x7a ./handler/button.o
+ .comment       0x00000079       0x7a ./handler/communication.o
+ .comment       0x00000079       0x7a ./handler/display.o
+ .comment       0x00000079       0x7a ./handler/pon.o
+ .comment       0x00000079       0x7a ./handler/xtimer.o
+ .comment       0x00000079       0x7a C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .comment       0x00000079       0x7a C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .comment       0x00000079       0x7a C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x2b ./empty_non_sysconfig.o
+ .ARM.attributes
+                0x0000002b       0x2b ./event_queue.o
+ .ARM.attributes
+                0x00000056       0x2b ./scheduler.o
+ .ARM.attributes
+                0x00000081       0x2b ./startup_mspm0l130x_gcc.o
+ .ARM.attributes
+                0x000000ac       0x2b ./state_machine.o
+ .ARM.attributes
+                0x000000d7       0x2b ./ti_msp_dl_config.o
+ .ARM.attributes
+                0x00000102       0x2b ./driver/cpu.o
+ .ARM.attributes
+                0x0000012d       0x2b ./driver/gpio.o
+ .ARM.attributes
+                0x00000158       0x2b ./driver/timer.o
+ .ARM.attributes
+                0x00000183       0x2b ./driver/uart.o
+ .ARM.attributes
+                0x000001ae       0x2b ./handler/button.o
+ .ARM.attributes
+                0x000001d9       0x2b ./handler/communication.o
+ .ARM.attributes
+                0x00000204       0x2b ./handler/display.o
+ .ARM.attributes
+                0x0000022f       0x2b ./handler/pon.o
+ .ARM.attributes
+                0x0000025a       0x2b ./handler/xtimer.o
+ .ARM.attributes
+                0x00000285       0x2b C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_common.o)
+ .ARM.attributes
+                0x000002b0       0x2b C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_timer.o)
+ .ARM.attributes
+                0x000002db       0x2b C:/ti/mspm0_sdk_1_30_00_03/source/ti/driverlib/lib/gcc/m0p/mspm0l11xx_l13xx/driverlib.a(dl_uart.o)
+ .ARM.attributes
+                0x00000306       0x1e c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000324       0x1e c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000342       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+
+.debug_frame    0x00000000      0x5e4
+ .debug_frame   0x00000000       0x28 ./empty_non_sysconfig.o
+ .debug_frame   0x00000028       0x50 ./event_queue.o
+ .debug_frame   0x00000078       0x74 ./scheduler.o
+ .debug_frame   0x000000ec       0x48 ./startup_mspm0l130x_gcc.o
+ .debug_frame   0x00000134      0x154 ./state_machine.o
+ .debug_frame   0x00000288       0x60 ./ti_msp_dl_config.o
+ .debug_frame   0x000002e8       0x28 ./driver/cpu.o
+ .debug_frame   0x00000310       0x40 ./driver/gpio.o
+ .debug_frame   0x00000350       0xa0 ./driver/timer.o
+ .debug_frame   0x000003f0       0x74 ./driver/uart.o
+ .debug_frame   0x00000464       0x38 ./handler/button.o
+ .debug_frame   0x0000049c       0x38 ./handler/communication.o
+ .debug_frame   0x000004d4       0x30 ./handler/display.o
+ .debug_frame   0x00000504       0x20 ./handler/pon.o
+ .debug_frame   0x00000524       0x74 ./handler/xtimer.o
+ .debug_frame   0x00000598       0x20 c:/ti/gcc_arm_none_eabi_9_2_1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x000005b8       0x2c C:/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-init.o)
+
+.debug_loc      0x00000000      0x15d
+ .debug_loc     0x00000000       0x26 ./event_queue.o
+ .debug_loc     0x00000026       0x13 ./startup_mspm0l130x_gcc.o
+ .debug_loc     0x00000039       0x58 ./state_machine.o
+ .debug_loc     0x00000091       0x13 ./driver/cpu.o
+ .debug_loc     0x000000a4       0x62 ./driver/uart.o
+ .debug_loc     0x00000106       0x57 ./handler/xtimer.o
